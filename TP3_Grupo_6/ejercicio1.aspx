@@ -227,7 +227,7 @@
                     <asp:RequiredFieldValidator ID="rfvCodigoPostal" runat="server" ControlToValidate="Cpbox" ForeColor="Red">Ingrese Codigo Postal</asp:RequiredFieldValidator>
                 </td>
                 <td class="auto-style10">
-                    <asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="Cpbox" CultureInvariantValues="True" ErrorMessage="Ingrese un numero de 4 digitos" ForeColor="Red" MaximumValue="9999" MinimumValue="1000"></asp:RangeValidator>
+                    <asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="Cpbox" CultureInvariantValues="True" ErrorMessage="Ingrese un numero de 4 digitos" ForeColor="Red" MaximumValue="9999" MinimumValue="1000" Type="Integer"></asp:RangeValidator>
                 </td>
             </tr>
             <tr>
