@@ -70,6 +70,38 @@
             width: 159px;
             height: 26px;
         }
+        .auto-style20 {
+            width: 157px;
+            height: 22px;
+        }
+        .auto-style21 {
+            width: 111px;
+            height: 22px;
+        }
+        .auto-style22 {
+            width: 194px;
+            height: 22px;
+        }
+        .auto-style23 {
+            width: 159px;
+            height: 22px;
+        }
+        .auto-style24 {
+            width: 157px;
+            height: 25px;
+        }
+        .auto-style25 {
+            width: 111px;
+            height: 25px;
+        }
+        .auto-style26 {
+            width: 194px;
+            height: 25px;
+        }
+        .auto-style27 {
+            width: 159px;
+            height: 25px;
+        }
     </style>
 </head>
 <body>
@@ -175,14 +207,16 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style3">Correo electrónico</td>
-                <td class="auto-style5">
+                <td class="auto-style24">Correo electrónico</td>
+                <td class="auto-style25">
                     <asp:TextBox ID="mailbox" runat="server" Width="150px"></asp:TextBox>
                 </td>
-                <td class="auto-style9">
+                <td class="auto-style26">
                     <asp:RequiredFieldValidator ID="rfvMailbox" runat="server" ControlToValidate="mailbox" ForeColor="Red">Ingrese el correo</asp:RequiredFieldValidator>
                 </td>
-                <td class="auto-style10">&nbsp;</td>
+                <td class="auto-style27">
+                    <asp:RegularExpressionValidator ID="mailREV" runat="server" ControlToValidate="mailbox" ErrorMessage="Ingrese un correo valido" ForeColor="Red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+                </td>
             </tr>
             <tr>
                 <td class="auto-style3">CP</td>
@@ -192,7 +226,9 @@
                 <td class="auto-style9">
                     <asp:RequiredFieldValidator ID="rfvCodigoPostal" runat="server" ControlToValidate="Cpbox" ForeColor="Red">Ingrese Codigo Postal</asp:RequiredFieldValidator>
                 </td>
-                <td class="auto-style10">&nbsp;</td>
+                <td class="auto-style10">
+                    <asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="Cpbox" CultureInvariantValues="True" ErrorMessage="Ingrese un numero de 4 digitos" ForeColor="Red" MaximumValue="9999" MinimumValue="1000"></asp:RangeValidator>
+                </td>
             </tr>
             <tr>
                 <td class="auto-style3">Localidad</td>
@@ -207,10 +243,10 @@
                 <td class="auto-style10">&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style3">&nbsp;</td>
-                <td class="auto-style5">&nbsp;</td>
-                <td class="auto-style9">&nbsp;</td>
-                <td class="auto-style10">&nbsp;</td>
+                <td class="auto-style20"></td>
+                <td class="auto-style21"></td>
+                <td class="auto-style22"></td>
+                <td class="auto-style23"></td>
             </tr>
             <tr>
                 <td class="auto-style3">&nbsp;</td>

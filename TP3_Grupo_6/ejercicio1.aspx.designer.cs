@@ -186,6 +186,15 @@ namespace TP3_Grupo_6
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvMailbox;
 
         /// <summary>
+        /// Control mailREV.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator mailREV;
+
+        /// <summary>
         /// Control Cpbox.
         /// </summary>
         /// <remarks>
@@ -202,6 +211,15 @@ namespace TP3_Grupo_6
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvCodigoPostal;
+
+        /// <summary>
+        /// Control RangeValidator1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator RangeValidator1;
 
         /// <summary>
         /// Control locatelist.
