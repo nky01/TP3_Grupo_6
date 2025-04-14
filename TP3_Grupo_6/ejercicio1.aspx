@@ -22,11 +22,11 @@
             width: 157px;
         }
         .auto-style5 {
-            width: 203px;
+            width: 111px;
         }
         .auto-style6 {
             height: 23px;
-            width: 203px;
+            width: 111px;
         }
         .auto-style9 {
             width: 243px;
@@ -37,6 +37,38 @@
         .auto-style11 {
             height: 23px;
             width: 159px;
+        }
+        .auto-style12 {
+            width: 157px;
+            height: 27px;
+        }
+        .auto-style13 {
+            width: 111px;
+            height: 27px;
+        }
+        .auto-style14 {
+            width: 243px;
+            height: 27px;
+        }
+        .auto-style15 {
+            width: 159px;
+            height: 27px;
+        }
+        .auto-style16 {
+            width: 157px;
+            height: 26px;
+        }
+        .auto-style17 {
+            width: 111px;
+            height: 26px;
+        }
+        .auto-style18 {
+            width: 243px;
+            height: 26px;
+        }
+        .auto-style19 {
+            width: 159px;
+            height: 26px;
         }
     </style>
 </head>
@@ -65,9 +97,9 @@
                     <asp:TextBox ID="txtLocalidad" runat="server" Width="150px"></asp:TextBox>
                 </td>
                 <td class="auto-style2">
-                    <asp:RequiredFieldValidator ID="rfvLocalidad" runat="server" ControlToValidate="txtLocalidad" ForeColor="Red">Ingrese una localidad</asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="rfvLocalidad" runat="server" ControlToValidate="txtLocalidad" ForeColor="Red" ValidationGroup="group1">Ingrese una localidad</asp:RequiredFieldValidator>
                     <br />
-                    <asp:RegularExpressionValidator ID="revLocalidad" runat="server" ControlToValidate="txtLocalidad" ForeColor="Red" ValidationExpression="[a-zA-Z0-9 ]+$">No ingrese valores especiales</asp:RegularExpressionValidator>
+                    <asp:RegularExpressionValidator ID="revLocalidad" runat="server" ControlToValidate="txtLocalidad" ForeColor="Red" ValidationExpression="[a-zA-Z0-9 ]+$" ValidationGroup="group1">No ingrese valores especiales</asp:RegularExpressionValidator>
                 </td>
                 <td class="auto-style11">
                     <asp:Label ID="repetido" runat="server"></asp:Label>
@@ -82,7 +114,7 @@
             <tr>
                 <td class="auto-style3">&nbsp;</td>
                 <td class="auto-style5">
-                    <asp:Button ID="guardarlocate" runat="server" OnClick="guardarlocate_Click" Text="Guardar Localidad" />
+                    <asp:Button ID="guardarlocate" runat="server" OnClick="guardarlocate_Click" Text="Guardar Localidad" ValidationGroup="group1" />
                 </td>
                 <td class="auto-style9">
                     <asp:Label ID="guardarLocalidad" runat="server"></asp:Label>
@@ -91,31 +123,33 @@
                     &nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style3">&nbsp;</td>
-                <td class="auto-style5">&nbsp;</td>
-                <td class="auto-style9">&nbsp;</td>
-                <td class="auto-style10">&nbsp;</td>
+                <td class="auto-style16"></td>
+                <td class="auto-style17"></td>
+                <td class="auto-style18"></td>
+                <td class="auto-style19"></td>
             </tr>
             <tr>
-                <td class="auto-style3">&nbsp;</td>
-                <td class="auto-style5">
+                <td class="auto-style12"></td>
+                <td class="auto-style13">
                     <asp:Label ID="userlbl" runat="server" Font-Bold="True" Text="Usuarios"></asp:Label>
                 </td>
-                <td class="auto-style9">&nbsp;</td>
-                <td class="auto-style10">&nbsp;</td>
+                <td class="auto-style14"></td>
+                <td class="auto-style15"></td>
             </tr>
             <tr>
-                <td class="auto-style3">&nbsp;</td>
-                <td class="auto-style5">&nbsp;</td>
-                <td class="auto-style9">&nbsp;</td>
-                <td class="auto-style10">&nbsp;</td>
+                <td class="auto-style16"></td>
+                <td class="auto-style17"></td>
+                <td class="auto-style18"></td>
+                <td class="auto-style19"></td>
             </tr>
             <tr>
                 <td class="auto-style3">Nombre Usuario</td>
                 <td class="auto-style5">
                     <asp:TextBox ID="namebox" runat="server" Width="150px"></asp:TextBox>
                 </td>
-                <td class="auto-style9">&nbsp;</td>
+                <td class="auto-style9">
+                    <asp:RequiredFieldValidator ID="rfvUsuario" runat="server" ControlToValidate="namebox" ForeColor="Red">Ingrese un usuario.</asp:RequiredFieldValidator>
+                </td>
                 <td class="auto-style10">&nbsp;</td>
             </tr>
             <tr>
@@ -123,7 +157,9 @@
                 <td class="auto-style5">
                     <asp:TextBox ID="contrabox" runat="server" Width="150px"></asp:TextBox>
                 </td>
-                <td class="auto-style9">&nbsp;</td>
+                <td class="auto-style9">
+                    <asp:RequiredFieldValidator ID="rfvPassword" runat="server" ControlToValidate="contrabox" ForeColor="Red">Ingrese la contraseña</asp:RequiredFieldValidator>
+                </td>
                 <td class="auto-style10">&nbsp;</td>
             </tr>
             <tr>
@@ -131,7 +167,9 @@
                 <td class="auto-style5">
                     <asp:TextBox ID="repcontrabox" runat="server" Width="150px"></asp:TextBox>
                 </td>
-                <td class="auto-style9">&nbsp;</td>
+                <td class="auto-style9">
+                    <asp:RequiredFieldValidator ID="rfvPassword2" runat="server" ControlToValidate="repcontrabox" ForeColor="Red">Repita la contraseña</asp:RequiredFieldValidator>
+                </td>
                 <td class="auto-style10">&nbsp;</td>
             </tr>
             <tr>
@@ -139,7 +177,9 @@
                 <td class="auto-style5">
                     <asp:TextBox ID="mailbox" runat="server" Width="150px"></asp:TextBox>
                 </td>
-                <td class="auto-style9">&nbsp;</td>
+                <td class="auto-style9">
+                    <asp:RequiredFieldValidator ID="rfvMailbox" runat="server" ControlToValidate="mailbox" ForeColor="Red">Ingrese el correo</asp:RequiredFieldValidator>
+                </td>
                 <td class="auto-style10">&nbsp;</td>
             </tr>
             <tr>
@@ -147,7 +187,9 @@
                 <td class="auto-style5">
                     <asp:TextBox ID="Cpbox" runat="server" Width="150px"></asp:TextBox>
                 </td>
-                <td class="auto-style9">&nbsp;</td>
+                <td class="auto-style9">
+                    <asp:RequiredFieldValidator ID="rfvCodigoPostal" runat="server" ControlToValidate="Cpbox" ForeColor="Red">Ingrese Codigo Postal</asp:RequiredFieldValidator>
+                </td>
                 <td class="auto-style10">&nbsp;</td>
             </tr>
             <tr>
@@ -157,7 +199,9 @@
                         <asp:ListItem Value="0">--Ingrese localidad--</asp:ListItem>
                     </asp:DropDownList>
                 </td>
-                <td class="auto-style9">&nbsp;</td>
+                <td class="auto-style9">
+                    <asp:RequiredFieldValidator ID="rfvLocal" runat="server" ControlToValidate="locatelist" ForeColor="Red" InitialValue="0">Seleccione una localidad</asp:RequiredFieldValidator>
+                </td>
                 <td class="auto-style10">&nbsp;</td>
             </tr>
             <tr>
@@ -168,7 +212,9 @@
             </tr>
             <tr>
                 <td class="auto-style3">&nbsp;</td>
-                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style5">
+                    <asp:Button ID="buttonUsuario" runat="server" Text="Guardar Usuario" />
+                </td>
                 <td class="auto-style9">&nbsp;</td>
                 <td class="auto-style10">&nbsp;</td>
             </tr>

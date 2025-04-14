@@ -32,6 +32,8 @@ namespace TP3_Grupo_6
                 locatelist.Items.Add(new ListItem(txtLocalidad.Text)); 
                 guardarLocalidad.Text = "Localidad agregada";
             }
+
+            txtLocalidad.Text = string.Empty;
         }
     }
 }
