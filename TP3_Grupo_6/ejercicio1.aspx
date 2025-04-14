@@ -12,7 +12,7 @@
         }
         .auto-style2 {
             height: 23px;
-            width: 243px;
+            width: 194px;
         }
         .auto-style3 {
             width: 157px;
@@ -29,7 +29,7 @@
             width: 111px;
         }
         .auto-style9 {
-            width: 243px;
+            width: 194px;
         }
         .auto-style10 {
             width: 159px;
@@ -47,7 +47,7 @@
             height: 27px;
         }
         .auto-style14 {
-            width: 243px;
+            width: 194px;
             height: 27px;
         }
         .auto-style15 {
@@ -63,7 +63,7 @@
             height: 26px;
         }
         .auto-style18 {
-            width: 243px;
+            width: 194px;
             height: 26px;
         }
         .auto-style19 {
@@ -155,7 +155,7 @@
             <tr>
                 <td class="auto-style3">Contraseña</td>
                 <td class="auto-style5">
-                    <asp:TextBox ID="contrabox" runat="server" Width="150px"></asp:TextBox>
+                    <asp:TextBox ID="contrabox" runat="server" Width="150px" TextMode="Password"></asp:TextBox>
                 </td>
                 <td class="auto-style9">
                     <asp:RequiredFieldValidator ID="rfvPassword" runat="server" ControlToValidate="contrabox" ForeColor="Red">Ingrese la contraseña</asp:RequiredFieldValidator>
@@ -165,12 +165,14 @@
             <tr>
                 <td class="auto-style3">Repetir contraseña</td>
                 <td class="auto-style5">
-                    <asp:TextBox ID="repcontrabox" runat="server" Width="150px"></asp:TextBox>
+                    <asp:TextBox ID="repcontrabox" runat="server" Width="150px" TextMode="Password"></asp:TextBox>
                 </td>
                 <td class="auto-style9">
                     <asp:RequiredFieldValidator ID="rfvPassword2" runat="server" ControlToValidate="repcontrabox" ForeColor="Red">Repita la contraseña</asp:RequiredFieldValidator>
                 </td>
-                <td class="auto-style10">&nbsp;</td>
+                <td class="auto-style10">
+                    <asp:CompareValidator ID="cvContrasenia" runat="server" ControlToCompare="contrabox" ControlToValidate="repcontrabox" ForeColor="Red">Contraseña incorrecta</asp:CompareValidator>
+                </td>
             </tr>
             <tr>
                 <td class="auto-style3">Correo electrónico</td>
