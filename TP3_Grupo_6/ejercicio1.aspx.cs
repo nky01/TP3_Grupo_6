@@ -9,9 +9,34 @@ namespace TP3_Grupo_6
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void guardarlocate_Click(object sender, EventArgs e)
         {
-            guardarLocalidad.Text = "Localidad agregada";
+            string localidad = txtLocalidad.Text.Trim().ToLower();
+            bool existe = false;
+
+            foreach (ListItem item in locatelist.Items)
+            {
+                if (item.Text.ToLower() == localidad)
+                {
+                    existe = true;
+                    break;
+                }
+            }
+
+            if (existe)
+            {
+                repetido.Text = "La localidad ya había sido ingresada.";
+            }
+            else
+            {
+                locatelist.Items.Add(new ListItem(txtLocalidad.Text)); 
+                guardarLocalidad.Text = "Localidad agregada";
+            }
         }
     }
 }
+
+
+         
+
+         
