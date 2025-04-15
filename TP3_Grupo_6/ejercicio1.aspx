@@ -251,13 +251,23 @@
             <tr>
                 <td class="auto-style3">&nbsp;</td>
                 <td class="auto-style5">
-                    <asp:Button ID="buttonUsuario" runat="server" Text="Guardar Usuario" />
+                    <asp:Button ID="buttonUsuario" runat="server" Text="Guardar Usuario" OnClick="buttonUsuario_Click" />
                 </td>
-                <td class="auto-style9">&nbsp;</td>
+                <td class="auto-style9">
+                    <asp:Label ID="lblWelcome" runat="server" Visible="False"></asp:Label>
+                </td>
                 <td class="auto-style10">&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style3">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style9">&nbsp;</td>
+                <td class="auto-style10">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style3">
+                    <asp:Button ID="btnInicioaspx" runat="server" Text="Ir a inicio aspx" Width="137px" CausesValidation="False" OnClick="btnInicioaspx_Click" />
+                </td>
                 <td class="auto-style5">&nbsp;</td>
                 <td class="auto-style9">&nbsp;</td>
                 <td class="auto-style10">&nbsp;</td>

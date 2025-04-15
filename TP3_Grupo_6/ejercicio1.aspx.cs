@@ -35,6 +35,17 @@ namespace TP3_Grupo_6
 
             txtLocalidad.Text = string.Empty;
         }
+
+        protected void buttonUsuario_Click(object sender, EventArgs e)
+        {
+            lblWelcome.Text = "Bienvenido " + namebox.Text;
+            lblWelcome.Visible = true;
+        }
+
+        protected void btnInicioaspx_Click(object sender, EventArgs e)
+        {
+            Server.Transfer("Inicio.aspx");
+        }
     }
 }
 

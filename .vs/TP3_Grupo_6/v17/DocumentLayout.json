@@ -1,13 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Elvis\\OneDrive - frgp.utn.edu.ar\\Desktop\\Escritorio\\TP2_Grupo_6\\",
+  "WorkspaceRootPath": "C:\\Users\\Dylan\\Documents\\CODE\\TP3_Grupo_6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3145C090-3F03-4E07-B0BF-AB7CA02B8CB5}|TP3_Grupo_6\\TP3_Grupo_6.csproj|c:\\users\\elvis\\onedrive - frgp.utn.edu.ar\\desktop\\escritorio\\tp2_grupo_6\\tp3_grupo_6\\ejercicio1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{3145C090-3F03-4E07-B0BF-AB7CA02B8CB5}|TP3_Grupo_6\\TP3_Grupo_6.csproj|c:\\users\\dylan\\documents\\code\\tp3_grupo_6\\tp3_grupo_6\\ejercicio1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{3145C090-3F03-4E07-B0BF-AB7CA02B8CB5}|TP3_Grupo_6\\TP3_Grupo_6.csproj|solutionrelative:tp3_grupo_6\\ejercicio1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3145C090-3F03-4E07-B0BF-AB7CA02B8CB5}|TP3_Grupo_6\\TP3_Grupo_6.csproj|C:\\Users\\Elvis\\OneDrive - frgp.utn.edu.ar\\Desktop\\Escritorio\\TP2_Grupo_6\\tp3_grupo_6\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3145C090-3F03-4E07-B0BF-AB7CA02B8CB5}|TP3_Grupo_6\\TP3_Grupo_6.csproj|c:\\users\\dylan\\documents\\code\\tp3_grupo_6\\tp3_grupo_6\\inicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3145C090-3F03-4E07-B0BF-AB7CA02B8CB5}|TP3_Grupo_6\\TP3_Grupo_6.csproj|solutionrelative:tp3_grupo_6\\inicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3145C090-3F03-4E07-B0BF-AB7CA02B8CB5}|TP3_Grupo_6\\TP3_Grupo_6.csproj|c:\\users\\dylan\\documents\\code\\tp3_grupo_6\\tp3_grupo_6\\inicio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3145C090-3F03-4E07-B0BF-AB7CA02B8CB5}|TP3_Grupo_6\\TP3_Grupo_6.csproj|solutionrelative:tp3_grupo_6\\inicio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3145C090-3F03-4E07-B0BF-AB7CA02B8CB5}|TP3_Grupo_6\\TP3_Grupo_6.csproj|C:\\Users\\Dylan\\Documents\\CODE\\TP3_Grupo_6\\tp3_grupo_6\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3145C090-3F03-4E07-B0BF-AB7CA02B8CB5}|TP3_Grupo_6\\TP3_Grupo_6.csproj|solutionrelative:tp3_grupo_6\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,21 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ejercicio1.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Elvis\\OneDrive - frgp.utn.edu.ar\\Desktop\\Escritorio\\TP2_Grupo_6\\TP3_Grupo_6\\ejercicio1.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Dylan\\Documents\\CODE\\TP3_Grupo_6\\TP3_Grupo_6\\ejercicio1.aspx.cs",
               "RelativeDocumentMoniker": "TP3_Grupo_6\\ejercicio1.aspx.cs",
-              "ToolTip": "C:\\Users\\Elvis\\OneDrive - frgp.utn.edu.ar\\Desktop\\Escritorio\\TP2_Grupo_6\\TP3_Grupo_6\\ejercicio1.aspx.cs",
+              "ToolTip": "C:\\Users\\Dylan\\Documents\\CODE\\TP3_Grupo_6\\TP3_Grupo_6\\ejercicio1.aspx.cs",
               "RelativeToolTip": "TP3_Grupo_6\\ejercicio1.aspx.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwDEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T14:54:27.932Z",
               "EditorCaption": ""
@@ -41,13 +45,39 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ejercicio1.aspx",
-              "DocumentMoniker": "C:\\Users\\Elvis\\OneDrive - frgp.utn.edu.ar\\Desktop\\Escritorio\\TP2_Grupo_6\\TP3_Grupo_6\\ejercicio1.aspx",
+              "DocumentMoniker": "C:\\Users\\Dylan\\Documents\\CODE\\TP3_Grupo_6\\TP3_Grupo_6\\ejercicio1.aspx",
               "RelativeDocumentMoniker": "TP3_Grupo_6\\ejercicio1.aspx",
-              "ToolTip": "C:\\Users\\Elvis\\OneDrive - frgp.utn.edu.ar\\Desktop\\Escritorio\\TP2_Grupo_6\\TP3_Grupo_6\\ejercicio1.aspx",
+              "ToolTip": "C:\\Users\\Dylan\\Documents\\CODE\\TP3_Grupo_6\\TP3_Grupo_6\\ejercicio1.aspx",
               "RelativeToolTip": "TP3_Grupo_6\\ejercicio1.aspx",
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-04-14T14:52:55.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Inicio.aspx",
+              "DocumentMoniker": "C:\\Users\\Dylan\\Documents\\CODE\\TP3_Grupo_6\\TP3_Grupo_6\\Inicio.aspx",
+              "RelativeDocumentMoniker": "TP3_Grupo_6\\Inicio.aspx",
+              "ToolTip": "C:\\Users\\Dylan\\Documents\\CODE\\TP3_Grupo_6\\TP3_Grupo_6\\Inicio.aspx",
+              "RelativeToolTip": "TP3_Grupo_6\\Inicio.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-15T03:27:22.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Inicio.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Dylan\\Documents\\CODE\\TP3_Grupo_6\\TP3_Grupo_6\\Inicio.aspx.cs",
+              "RelativeDocumentMoniker": "TP3_Grupo_6\\Inicio.aspx.cs",
+              "ToolTip": "C:\\Users\\Dylan\\Documents\\CODE\\TP3_Grupo_6\\TP3_Grupo_6\\Inicio.aspx.cs*",
+              "RelativeToolTip": "TP3_Grupo_6\\Inicio.aspx.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T03:38:16.478Z",
               "EditorCaption": ""
             }
           ]
