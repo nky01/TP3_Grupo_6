@@ -29,7 +29,7 @@ namespace TP3_Grupo_6
             }
             else
             {
-                locatelist.Items.Add(new ListItem(txtLocalidad.Text)); 
+                locatelist.Items.Add(new ListItem(txtLocalidad.Text));
                 guardarLocalidad.Text = "Localidad agregada";
             }
 
@@ -39,6 +39,10 @@ namespace TP3_Grupo_6
         protected void buttonUsuario_Click(object sender, EventArgs e)
         {
             lblWelcome.Text = "Bienvenido " + namebox.Text;
+            namebox.Text = "";
+            mailbox.Text = "";
+            Cpbox.Text = "";
+            locatelist.SelectedIndex = 0;
             lblWelcome.Visible = true;
         }
 
