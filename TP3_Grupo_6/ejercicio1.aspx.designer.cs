@@ -96,6 +96,15 @@ namespace TP3_Grupo_6
         protected global::System.Web.UI.WebControls.Label guardarLocalidad;
 
         /// <summary>
+        /// Control vsLocalidades.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ValidationSummary vsLocalidades;
+
+        /// <summary>
         /// Control userlbl.
         /// </summary>
         /// <remarks>
@@ -256,6 +265,15 @@ namespace TP3_Grupo_6
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblWelcome;
+
+        /// <summary>
+        /// Control vsUsuarios.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ValidationSummary vsUsuarios;
 
         /// <summary>
         /// Control btnInicioaspx.
