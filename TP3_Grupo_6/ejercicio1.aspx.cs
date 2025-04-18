@@ -11,29 +11,16 @@ namespace TP3_Grupo_6
     {
         protected void guardarlocate_Click(object sender, EventArgs e)
         {
-            string localidad = txtLocalidad.Text.Trim().ToLower();
-            bool existe = false;
-
-            foreach (ListItem item in locatelist.Items)
-            {
-                if (item.Text.ToLower() == localidad)
-                {
-                    existe = true;
-                    break;
-                }
-            }
-
-            if (existe)
-            {
-                repetido.Text = "La localidad ya había sido ingresada.";
-            }
-            else
+            if (Page.IsValid)
             {
                 locatelist.Items.Add(new ListItem(txtLocalidad.Text));
                 guardarLocalidad.Text = "Localidad agregada";
+                txtLocalidad.Text = string.Empty;
             }
-
-            txtLocalidad.Text = string.Empty;
+            else
+            {
+                guardarLocalidad.Text = "";
+            }
         }
 
         protected void buttonUsuario_Click(object sender, EventArgs e)
@@ -49,6 +36,19 @@ namespace TP3_Grupo_6
         protected void btnInicioaspx_Click(object sender, EventArgs e)
         {
             Server.Transfer("Inicio.aspx");
+        }
+
+        protected void cvLocalidades_ServerValidate(object source, ServerValidateEventArgs args)
+        {
+            args.IsValid = true;
+
+            foreach (ListItem item in locatelist.Items){
+                if (item.Text.ToUpper() == txtLocalidad.Text.ToUpper())
+                {
+                    args.IsValid = false;
+                    break;
+                }
+            }
         }
     }
 }

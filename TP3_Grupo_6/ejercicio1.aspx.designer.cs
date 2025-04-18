@@ -78,6 +78,15 @@ namespace TP3_Grupo_6
         protected global::System.Web.UI.WebControls.Label repetido;
 
         /// <summary>
+        /// Control cvLocalidades.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CustomValidator cvLocalidades;
+
+        /// <summary>
         /// Control guardarlocate.
         /// </summary>
         /// <remarks>

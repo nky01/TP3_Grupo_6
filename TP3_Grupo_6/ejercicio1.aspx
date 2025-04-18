@@ -154,6 +154,7 @@
                     <asp:RequiredFieldValidator ID="rfvLocalidad" runat="server" ControlToValidate="txtLocalidad" ForeColor="Red" ValidationGroup="grupo1" ErrorMessage="Ingrese una localidad">*</asp:RequiredFieldValidator>
                     &nbsp;<asp:RegularExpressionValidator ID="revLocalidad" runat="server" ControlToValidate="txtLocalidad" ForeColor="Red" ValidationExpression="[a-zA-Z0-9 ]+$" ValidationGroup="grupo1" ErrorMessage="No ingrese valores especiales">*</asp:RegularExpressionValidator>
                 &nbsp;<asp:Label ID="repetido" runat="server" ForeColor="Red"></asp:Label>
+                    <asp:CustomValidator ID="cvLocalidades" runat="server" ErrorMessage="Localidad ya registrada" ForeColor="Red" OnServerValidate="cvLocalidades_ServerValidate" ValidationGroup="grupo1">*</asp:CustomValidator>
                 </td>
                 <td class="auto-style11">
                     &nbsp;</td>
